@@ -13,3 +13,11 @@ for x in myList:
 
 print("The second element of the list is %d" % myList[1])
 print("The first element of the list is", myList[0])
+
+#using operator with a list
+evenNumber = [2,4,6]
+oddNumber = [1,3,5]
+allNumbers = oddNumber + evenNumber
+
+print(allNumbers)
+
