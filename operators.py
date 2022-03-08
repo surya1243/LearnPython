@@ -8,3 +8,8 @@ print(9 % 6 % 2)
 print(2 ** 2 ** 3)
 
 print((-2 / 4), (8 / 4), (2 // 4), (-2 // 4))
+
+var = 1
+print(var)
+var = var + 1
+print(var)
