@@ -2,15 +2,15 @@ class Parrot:
     
     # instance attributes
     def __init__(self, name, age):
-        self.name = name
+        self.__name = name #private attribute
         self.age = age
     
     # instance method
     def sing(self, song):
-        return "{} sings {}".format(self.name, song)
+        return "{} sings {}".format(self.__name, song)
 
     def dance(self):
-        return "{} is now dancing".format(self.name)
+        return "{} is now dancing".format(self.__name)
 
 # instantiate the object
 blu = Parrot("Blu", 10)
